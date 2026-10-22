@@ -1,0 +1,10 @@
+[package]
+name = "smartmontools"
+version = "7.5"
+
+[source]
+url = "https://github.com/smartmontools/smartmontools/archive/refs/tags/RELEASE_7_5.tar.gz"
+sha256 = "ef721052992f2f6a57b369da625abd8dc30417e7a1e7234857619f8fc43fd4bc"
+
+[build]
+system = "make"

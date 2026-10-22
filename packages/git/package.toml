@@ -1,0 +1,10 @@
+[package]
+name = "git"
+version = "2.56.0"
+
+[source]
+url = "https://www.kernel.org/pub/software/scm/git/git-manpages-2.56.0.tar.xz"
+sha256 = "1f62a7fabaa36a0469c4d51fe247d12e7e246b890d2b8b49aec91df610f417c7"
+
+[build]
+system = "make"
