@@ -9,3 +9,5 @@ sha256 = "4b0abab6d219e95690ebe4db7fc9aa95f4006c83baaa022373c0c8442271283d"
 [build]
 system = "make"
 
+[deps]
+requires = ["zlib >= 1.3.0"]

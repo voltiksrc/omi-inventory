@@ -1,0 +1,10 @@
+[package]
+name = "glow"
+version = "3.0.0"
+
+[source]
+url = "https://github.com/charmbracelet/glow/releases/download/v3.0.0/glow-3.0.0.tar.gz"
+sha256 = "d16dcb89c50f85180ffb25f74a9ad7aa146380dffbc344e4f3344fcf729bbfd3"
+
+[build]
+system = "go"
