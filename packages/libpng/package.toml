@@ -1,13 +1,15 @@
 [package]
 name = "libpng"
-version = "1.6.55"
+version = "1.6.59"
+architecture = "x86_64"
 
 [source]
-url = "https://downloads.sourceforge.net/project/libpng/libpng16/1.6.55/libpng-1.6.55.tar.gz"
-sha256 = "4b0abab6d219e95690ebe4db7fc9aa95f4006c83baaa022373c0c8442271283d"
+url = "https://sourceforge.net/projects/libpng/files/libpng16/1.6.59/libpng-1.6.59.tar.xz/download"
+sha256 = "d80dd2a38a37f803cb9b6ac7b14bd6e74ddc3b654780a8380bdf93523fdb4389"
 
 [build]
 system = "make"
 
 [deps]
 requires = ["zlib >= 1.3.0"]
+build_requires = []
