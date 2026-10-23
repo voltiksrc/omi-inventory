@@ -1,6 +1,7 @@
 [package]
 name = "lzip"
 version = "1.26"
+architecture = "x86_64"
 
 [source]
 url = "https://download-mirror.savannah.gnu.org/releases/lzip/lzip-1.26.tar.lz"
@@ -8,3 +9,7 @@ sha256 = "1746f1e4ec4359a728692ce2db45641c9267b048aa13c044e9d581d50394713d"
 
 [build]
 system = "make"
+
+[deps]
+requires = []
+build_requires = []
