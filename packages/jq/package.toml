@@ -1,6 +1,7 @@
 [package]
 name = "jq"
 version = "1.8.2"
+architecture = "x86_64"
 
 [source]
 url = "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-1.8.2.tar.gz"
@@ -8,3 +9,7 @@ sha256 = "71b8d6e8f5fe81f6c6d0d110e3892251f6ce76ed095abd315e26e6e1193af3af"
 
 [build]
 system = "make"
+
+[deps]
+requires = []
+build_requires = []
