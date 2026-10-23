@@ -12,4 +12,4 @@ system = "cargo"
 
 [deps]
 requires = ["pcre2"]
-build_requires = ["cargo", "cmake"]
+build_requires = ["cargo"]
